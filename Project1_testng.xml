@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="seleniumpackage1.SeleniumProject1.Registration_test"/>
+      <class name="seleniumpackage1.SeleniumProject1.Homepage_ClickSignin_Amazon"/>
+           <class name="seleniumpackage1.SeleniumProject1.Login_To_Amazon_test"/>
+      <class name="seleniumpackage1.SeleniumProject1.Edit_Profile_test"/>
+     <class name="seleniumpackage1.SeleniumProject1.SearchPage_test"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
